@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'segoe_scriptregular';
+    src: url('fonts/segoe-script-webfont.woff2') format('woff2'),
+         url('fonts/segoe-script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe Script', 'Comic Sans MS', sans-serif;
