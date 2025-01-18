@@ -15,8 +15,8 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    touch-action: none;
-    -ms-touch-action: none;
+    touch-action: pan-y;
+    -ms-touch-action: pan-y;
     -webkit-touch-callout: none;
     overflow-y: auto;
  }
