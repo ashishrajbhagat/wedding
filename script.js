@@ -21,7 +21,7 @@ function showSlides() {
 }
 
 // Countdown Timer
-const weddingDate = new Date("2025-04-16T00:00:00").getTime();
+const weddingDate = new Date("2025-04-30T00:00:00").getTime();
 
 const countdown = setInterval(() => {
   const now = new Date().getTime();
