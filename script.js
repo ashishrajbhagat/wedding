@@ -45,3 +45,11 @@ document.querySelector('.scroll-down').addEventListener('click', function() {
   const target = document.querySelector(this.getAttribute('data-target'));
   target.scrollIntoView({ behavior: 'smooth' });
 });
+
+document.addEventListener('contextmenu', (event) => {
+  event.preventDefault(); // Prevent right click
+});
+
+document.addEventListener("selectstart", (event) => {
+  event.preventDefault(); // Prevent text selection
+});

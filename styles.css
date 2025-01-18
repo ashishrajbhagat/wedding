@@ -10,6 +10,15 @@ body {
     margin: 0;
     font-family: 'segoe_scriptregular', 'Comic Sans MS', sans-serif;
     background-color: #E2DDD7;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    touch-action: none;
+    -ms-touch-action: none;
+    -webkit-touch-callout: none;
  }
   
  .container {
